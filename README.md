@@ -2,7 +2,7 @@ Arquivo para revisão do funcionamento do git e seus comandos básicos.
 
 # Git
 
- **Git** é um sistema de controle de versionamento distribuído. É um sistema que salva e gerencias as alterações de arquivos. 
+ **Git** Git é um sistema de controle de versões distribuído usado para rastrear alterações em arquivos ao longo do tempo. Ele permite que desenvolvedores trabalhem em projetos colaborativamente, mantendo um histórico completo de modificações.
 
 - **GitHub** é uma plataforma que hospeda o Git.
 
