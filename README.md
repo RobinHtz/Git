@@ -4,7 +4,7 @@ Arquivo para revisão do funcionamento do git e seus comandos básicos.
 
  **Git** é um sistema de controle de versões distribuído usado para rastrear alterações em arquivos ao longo do tempo. Ele permite que desenvolvedores trabalhem em projetos colaborativamente, mantendo um histórico completo de modificações.
 
-- **GitHub** é uma plataforma que hospeda o Git.
+- **GitHub** é uma plataforma que hospeda o Git na nuvem.
 
 Git foi desenvolvido pelo **Linus Torvalds**, criador do Linux, para o controle do kernel do linux.
 
@@ -12,15 +12,15 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
 ## Cada projeto no git é dividido em três estágios: 
 
-**1- Working Directory** > Diretório onde se está trabalhando no próprio computador.
+**1- Working Directory** > A pasta local do projeto, onde você edita arquivos.
 
     git add
 
-**2- Staging Area** > Sala de espera onde os arquivos modificados ficam antes de ser enviado ao repositório.
+**2- Staging Area** > Sala de espera onde é selecionado quais alterações do Working Directory serão incluídas no próximo commit.
 
 	git commit
 
-**3- Git Directory** > Repositório principal do projeto.
+**3- Git Directory** > Repositório local do projeto.
 
 [Documentação do git](https://git-scm.com/docs/git)
 
@@ -77,3 +77,4 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
     $ git checkout -- NomeDoArquivo > Desfaz as alterações de um único arquivo.
 
     $ git rm NomeDoArquivo > Remove o arquivo do repositório principal.
+    
