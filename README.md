@@ -49,8 +49,6 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
 .gitignore é um arquivo que dentro dele há o nome dos arquivos e pastas que não queremos que passe para o commit. Lembrando que as pastas terão uma / após seu nome no gitignore.
 
-    $ git rm NomeDoArquivo > Remove o arquivo do repositório principal.
-
 ------------------------------------------------------------------------
 ## Comandos sobre diferenças nos repositórios.
 
