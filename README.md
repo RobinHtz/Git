@@ -1,3 +1,4 @@
+Arquivo para revisão do funcionamento do git e seus comandos básicos.
 
 # Git
 
