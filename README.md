@@ -44,7 +44,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
     $ git add NomeDoArquivo (ou * para adicionar todos os arquivos) > Serve para adicionar os arquivos no Staging Area.
 
-    $ git commit -m "mensagem do commit" > Para mandar os arquivos do Staging Area para o Git Directory/ repositório principal com uma mensagem.
+    $ git commit -m "mensagem do commit" > Para mandar os arquivos do Staging Area para o Git Directory/repositório principal com uma mensagem.
 
 .gitignore é um arquivo que dentro dele há o nome dos arquivos e pastas que não queremos que passe para o commit. Lembrando que as pastas terão uma / após seu nome no gitignore.
 
