@@ -65,6 +65,8 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
     $ git log -p -1 > Mostra o último commit que foi feito, alterar o número por n número mostra n quantidades de n commits feitos.
     - Contra intuitivo usar esses comandos em cmd, mais fácil ver o visualizador de relatório usando o comando gitk no git bach.
 
+    $ git log --pretty=oneline > Verificação do histórico de commits de maneira limpa visualmente.
+
 ------------------------------------------------------------------------
 ## Comandos para reverter mudanças no repositório principal.
 
