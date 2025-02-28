@@ -50,6 +50,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 .gitignore é um arquivo que dentro dele há o nome dos arquivos e pastas que não queremos que passe para o commit. Lembrando que as pastas terão uma / após seu nome no gitignore.
 
 ------------------------------------------------------------------------
+
 ## Comandos sobre diferenças nos repositórios.
 
     $ git diff > Mostra o que alterou em arquivos locais antes do git add.
@@ -68,6 +69,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
     $ git log --pretty=oneline > Verificação do histórico de commits de maneira limpa visualmente.
 
 ------------------------------------------------------------------------
+
 ## Comandos para reverter mudanças no repositório principal.
 
     $ git commit --amend -m "mensagem" > Resulta em uma edição do último commit com novas adições.
@@ -79,6 +81,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
     $ git rm NomeDoArquivo > Remove o arquivo do repositório principal.
     
 ------------------------------------------------------------------------
+
 ## Comandos de Tag e Branch
 
 Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
@@ -94,6 +97,7 @@ Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões
     $ git checkout NomeTag > Muda os arquivos do projeto atual para os arquivos da versão escolhida. Muda o Working Directory para a tag escolhida.
 
     $ git tag -d NomeTag > Deleta uma tag específica.
+
 
 Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
 
