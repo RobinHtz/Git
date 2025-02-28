@@ -76,3 +76,39 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
     $ git rm NomeDoArquivo > Remove o arquivo do repositório principal.
     
+------------------------------------------------------------------------
+## Comandos de Tag e Branch
+
+> Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
+
+    $ git tag -a NomeTagNova -m "Mensagem" > Cria uma tag com nome utilizando a versão atual do projeto.
+
+    $ git tag  > Retorna as tags existentes.
+
+    $ git tag -a v0.0 TagAntiga -m "Mensagem" > Para criar tag em uma versão antiga.
+
+    $ git show NomeTag > Mostra detalhes e o histórico da tag selecionada.
+
+    $ git checkout NomeTag > Muda os arquivos do projeto atual para os arquivos da versão escolhida. Muda o Working Directory para a tag escolhida.
+
+    $ git tag -d NomeTag > Deleta uma tag específica.
+
+> Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
+> O branch padrão é chamado main.
+> Praticamente as branchs funcionam como cópias do projeto principal permitindo testes sem perca de dados.
+
+    $ git checkout main > Muda para a versão principal.
+
+    $ git branch NomeBranch > Cria uma nova branch no projeto.
+
+    $ git checkout  NomeBranch > Transfere os arquivos atuais para a branch escolhida.
+
+    $ git checkout -b NomeBranch > Cria uma nova branch e transfere arquivos atuais para essa branch, além de mudar o Working Directory para a branch nova.
+
+    $ git merge NomeBranch > Faz uma mescla dos arquivos da branch escolhida para a branch atual.
+
+    $ git branch -d teste > Deleta uma branch.
+
+> Conflitos que impedem o merge precisam de correção manual no arquivo.
+
+------------------------------------------------------------------------
