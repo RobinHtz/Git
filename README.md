@@ -47,7 +47,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
     $ git commit -m "mensagem do commit" > Para mandar os arquivos do Staging Area para o Git Directory/repositório principal com uma mensagem.
 
-.gitignore é um arquivo que dentro dele há o nome dos arquivos e pastas que não queremos que passe para o commit. Lembrando que as pastas terão uma / após seu nome no gitignore.
+*.gitignore* é um arquivo que dentro dele há o nome dos arquivos e pastas que não queremos que passe para o commit. Lembrando que as pastas terão uma / após seu nome no gitignore.
 
 ------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
 ## Comandos de Tag e Branch
 
-Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
+Tags no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
 
     $ git tag -a NomeTagNova -m "Mensagem" > Cria uma tag com nome utilizando a versão atual do projeto.
 
@@ -101,8 +101,9 @@ Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões
 
 Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
 
-> O branch padrão é chamado main.
-> Praticamente as branchs funcionam como cópias do projeto principal permitindo testes sem perca de dados.
+- O branch padrão é chamado **main**.
+
+Praticamente as branchs funcionam como cópias do projeto principal permitindo testes sem perca de dados.
 
     $ git checkout main > Muda para a versão principal.
 
@@ -129,7 +130,7 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 
   
 
-- O primeiro acesso a esse repositório deve clonar o repositório para fazer a base do projeto.
+ *O primeiro acesso a esse repositório deve clonar o repositório para fazer a base do projeto.*
 
   
 
@@ -163,7 +164,7 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 
     $ ssh-keygen > Chave necessária para conectar o git com github.
 
-- Para usar um repositório criado no github em um pc local, precisa fazer clone do repositório no computador:
+ Para usar um repositório **criado no github** em um pc local, precisa fazer clone do repositório no computador:
 
     $ git clone ChaveRepositórioGithub NomePasta
 
