@@ -1,4 +1,5 @@
 Arquivo para revisão do funcionamento do git e seus comandos básicos.
+
 Conteúdo baseado na [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
 
 # Git
