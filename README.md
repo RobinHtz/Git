@@ -81,7 +81,7 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 ------------------------------------------------------------------------
 ## Comandos de Tag e Branch
 
-> Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
+Tags(ponteiros) no git geralmente são usadas para marcar as diferentes versões do projeto, facilitando as consultas e as trocas de versão. 
 
     $ git tag -a NomeTagNova -m "Mensagem" > Cria uma tag com nome utilizando a versão atual do projeto.
 
@@ -95,7 +95,8 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
     $ git tag -d NomeTag > Deleta uma tag específica.
 
-> Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
+Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
+
 > O branch padrão é chamado main.
 > Praticamente as branchs funcionam como cópias do projeto principal permitindo testes sem perca de dados.
 
@@ -111,6 +112,6 @@ Uma grande vantagem do git é a possibilidade de muitas pessoas trabalhar em um 
 
     $ git branch -d teste > Deleta uma branch.
 
-> Conflitos que impedem o merge precisam de correção manual no arquivo.
+- Conflitos que impedem o merge precisam de correção manual no arquivo.
 
 ------------------------------------------------------------------------
