@@ -125,7 +125,7 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 
   
 
-    $ git init --bare > Para iniciar um repositório que será disponibilizado para outros computadores na rede local.
+    $ git init --bare > Para iniciar um repositório que será disponibilizado para outros computadores na rede local.
 
   
 
@@ -133,23 +133,23 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 
   
 
-    $ git clone file:////local nome > Clonagem do projeto para máquina local.
+    $ git clone file:////local nome > Clonagem do projeto para máquina local.
 
   
 
-    $ git remote > Retorna o nome do servidor remoto.
+    $ git remote > Retorna o nome do servidor remoto.
 
   
 
-    $ git push NomeRemote main > Para enviar o commit para o servidor remoto.
+    $ git push NomeRemote main > Para enviar o commit para o servidor remoto.
 
   
 
-    $ git pull NomeRemote main > Traz os arquivos do servidor para o computador utilizado, mas fazendo um merge com os arquivos locais.
+    $ git pull NomeRemote main > Traz os arquivos do servidor para o computador utilizado, mas fazendo um merge com os arquivos locais.
 
   
 
-    $ git fetch NomeRemote NomeBranch > Traz os arquivos do servidor para a branch selecionada.
+    $ git fetch NomeRemote NomeBranch > Traz os arquivos do servidor para a branch selecionada.
 
   
 
@@ -161,12 +161,14 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 
   
 
-    $ ssh-keygen > Chave necessária para conectar o git com github.
-
-  
+    $ ssh-keygen > Chave necessária para conectar o git com github.
 
 - Para usar um repositório criado no github em um pc local, precisa fazer clone do repositório no computador:
 
-  
+    $ git clone ChaveRepositórioGithub NomePasta
 
-    $ git clone ChaveRepositórioGithub NomePasta
+    $ git push origin main > Envia os commits no git local para o github.
+
+    $ git pull origin main > Traz os arquivos do github para o computador local fazendo merge.
+
+------------------------------------------------------------------------
