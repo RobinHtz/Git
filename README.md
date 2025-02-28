@@ -1,6 +1,6 @@
 Arquivo para revisão do funcionamento do git e seus comandos básicos.
 
-Conteúdo baseado na [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
+Conteúdo baseado nessa [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
 
 # Git
 
@@ -176,4 +176,4 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
 
 ------------------------------------------------------------------------
 
-Conteúdo baseado na [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
+Conteúdo baseado nessa [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
