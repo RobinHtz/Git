@@ -119,3 +119,54 @@ Branchs são ramificações dentro do controle de versão, as branchs permitem c
 - Conflitos que impedem o merge precisam de correção manual no arquivo.
 
 ------------------------------------------------------------------------
+
+
+## Git em rede local
+
+  
+
+    $ git init --bare > Para iniciar um repositório que será disponibilizado para outros computadores na rede local.
+
+  
+
+- O primeiro acesso a esse repositório deve clonar o repositório para fazer a base do projeto.
+
+  
+
+    $ git clone file:////local nome > Clonagem do projeto para máquina local.
+
+  
+
+    $ git remote > Retorna o nome do servidor remoto.
+
+  
+
+    $ git push NomeRemote main > Para enviar o commit para o servidor remoto.
+
+  
+
+    $ git pull NomeRemote main > Traz os arquivos do servidor para o computador utilizado, mas fazendo um merge com os arquivos locais.
+
+  
+
+    $ git fetch NomeRemote NomeBranch > Traz os arquivos do servidor para a branch selecionada.
+
+  
+
+------------------------------------------------------------------------
+
+  
+
+## Github em conjunto com git
+
+  
+
+    $ ssh-keygen > Chave necessária para conectar o git com github.
+
+  
+
+- Para usar um repositório criado no github em um pc local, precisa fazer clone do repositório no computador:
+
+  
+
+    $ git clone ChaveRepositórioGithub NomePasta
