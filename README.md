@@ -102,7 +102,7 @@ Tags no git geralmente são usadas para marcar as diferentes versões do projeto
     $ git tag -d NomeTag > Deleta uma tag específica.
 
 
-Branchs são ramificações dentro do controle de versão, as branchs permitem commits em segmentações diferentes do projeto.
+ São ramificações dentro do projeto, elas permitem que diferentes versões do projeto sejam trabalhadas simultâneamente.
 
 - O branch padrão é chamado **main**.
 
@@ -110,15 +110,15 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
 
     $ git checkout main > Muda para a versão principal.
 
-    $ git branch NomeBranch > Cria uma nova branch no projeto.
+    $ git branch NomeBranchNova > Cria uma nova branch no projeto.
 
-    $ git checkout  NomeBranch > Transfere os arquivos atuais para a branch escolhida.
+    $ git checkout NomeBranch > Transfere os arquivos atuais para a branch escolhida.
 
-    $ git checkout -b NomeBranch > Cria uma nova branch e transfere arquivos atuais para essa branch, além de mudar o Working Directory para a branch nova.
+    $ git checkout -b NomeBranchNova > Cria uma nova branch e transfere arquivos atuais para essa branch, além de mudar o Working Directory para a branch nova.
 
     $ git merge NomeBranch > Faz uma mescla dos arquivos da branch escolhida para a branch atual.
 
-    $ git branch -d teste > Deleta uma branch.
+    $ git branch -d NomeBranch > Deleta uma branch.
 
 - Conflitos que impedem o merge precisam de correção manual no arquivo.
 
@@ -145,15 +145,15 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
 
   
 
-    $ git push NomeRemote main > Para enviar o commit para o servidor remoto.
+    $ git push NomeServidor main > Para enviar o commit para o servidor remoto.
 
   
 
-    $ git pull NomeRemote main > Traz os arquivos do servidor para o computador utilizado, mas fazendo um merge com os arquivos locais.
+    $ git pull NomeServidor main > Traz os arquivos do servidor para o computador utilizado, mas fazendo um merge com os arquivos locais.
 
   
 
-    $ git fetch NomeRemote NomeBranch > Traz os arquivos do servidor para a branch selecionada.
+    $ git fetch NomeServidor NomeBranch > Traz os arquivos do servidor para a branch selecionada sem merge.
 
   
 
@@ -169,7 +169,7 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
 
  Para usar um repositório **criado no github** em um pc local, precisa fazer clone do repositório no computador:
 
-    $ git clone ChaveRepositórioGithub NomePasta
+    $ git clone ChaveRepositórioGithub NomePastaNova
 
     $ git push origin main > Envia os commits no git local para o github.
 
