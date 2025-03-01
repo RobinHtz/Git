@@ -92,7 +92,8 @@ Tags no git geralmente são usadas para marcar as diferentes versões do projeto
 
     $ git tag  > Retorna as tags existentes.
 
-    $ git tag -a v0.0 TagAntiga -m "Mensagem" > Para criar tag em uma versão antiga.
+    $ git tag -a NomeTagNova ChaveDoCommitSelecionado -m "Mensagem" > Para criar tag em uma versão antiga.
+    - Para pegar a chave da versão do commit desejada, use o git log --pretty=oneline.
 
     $ git show NomeTag > Mostra detalhes e o histórico da tag selecionada.
 
