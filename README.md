@@ -177,3 +177,5 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
 ------------------------------------------------------------------------
 
 Conteúdo baseado nessa [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
+
+![](https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png)
