@@ -1,7 +1,5 @@
 Arquivo para revisão do funcionamento do git e seus comandos básicos.
 
-Conteúdo baseado nessa [Playlist de git](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)!
-
 # Git
 
  **Git** é um sistema de controle de versões distribuído usado para rastrear alterações em arquivos ao longo do tempo. Ele permite que desenvolvedores trabalhem em projetos colaborativamente, mantendo um histórico completo de modificações.
@@ -174,6 +172,16 @@ Praticamente as branchs funcionam como cópias do projeto principal permitindo t
     $ git push origin main > Envia os commits no git local para o github.
 
     $ git pull origin main > Traz os arquivos do github para o computador local fazendo merge.
+
+------------------------------------------------------------------------
+
+  Usar um repositório **criado no git** em um repositório github, precisa fazer os seguintes comandos:
+
+    $ git remote add origin https://github.com/Conta/NomeRepositorioGithub
+
+    $ git branch -M main
+
+    $ git push -u origin main
 
 ------------------------------------------------------------------------
 
